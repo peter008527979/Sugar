@@ -56,6 +56,7 @@ public class FollowMouse : MonoBehaviour
         DesTarget = press.ToString() + "(Clone)";
         
         Des = GameObject.Find(DesTarget);
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~跟隨滑鼠，按下左鍵生成預製物件~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
         transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition + new Vector3(0, 0, 10));
 
