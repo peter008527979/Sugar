@@ -99,6 +99,7 @@ public class UIStart : MonoBehaviour
     {
         contro = 6;
     }
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~最後一個動畫播完，進入下一個場景~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     void Start_Loading()
     {
         SceneManager.LoadScene(1);
