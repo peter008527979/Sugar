@@ -23,7 +23,7 @@ public class UIStart : MonoBehaviour
         FindPlayer.text = ("等待玩家...");
     }
 
-
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~按下S鍵，播放下一頁~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.S) && contro == 1)
@@ -65,6 +65,7 @@ public class UIStart : MonoBehaviour
 
     }
 
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~動畫播完，等待播放下一個動畫~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     void Start_2()
     {
         anim.Play("Start_2");
